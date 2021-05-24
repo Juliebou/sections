@@ -37,4 +37,14 @@ p {
   max-width: 25em;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: .6em;
+}
+
+a {
+  text-decoration: none;
+  border: 4px solid #333;
+  border-radius: 8px;
+  padding: .75em;
+  color: #666;
+  margin: 1.5;
 }
