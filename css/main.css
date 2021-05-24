@@ -15,20 +15,23 @@ body {
   background-color: #eee9de;
 }
 
-.image {
+img {
   display: inline-block;
+  width: 25em;
+  padding: .4em 0;
 }
 
 .text {
   display: inline-block;
-  padding: .4em 1em;
+  padding: .4em;
+  vertical-align: middle;
 }
 
-main {
-  padding: 2em;
+section {
+  padding: 1em;
 }
 
-h1 {
+h2 {
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,13 +41,22 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: .6em;
+  text-align: left;
 }
 
-a {
+.btn {
   text-decoration: none;
-  border: 4px solid #333;
+  font-weight: bold;
+  border: 3px solid #333;
   border-radius: 8px;
   padding: .75em;
   color: #666;
-  margin: 1.5;
 }
+
+
+/*Typefaces: Lato (regular, bold)
+Maximum width on section inner boxes: 25em
+Colours: #666, #333, #eee9de
+Paddings: 1em, 2em, .4em .75em .5em
+Margins: 1.5rem
+Line-height: 1.5*/
